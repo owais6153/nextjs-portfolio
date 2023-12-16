@@ -67,9 +67,9 @@ const TAB_DATA = [
     content: (
       <>
         <p className="mb-5 text-[#ADB7BE]">
-          For over 5 enchanting years in web development, I've danced through
-          the ever-evolving tech landscape, crafting not just interfaces but
-          entire digital realms.
+          For over 5 enchanting years in web development, I&lsquo;ve danced
+          through the ever-evolving tech landscape, crafting not just interfaces
+          but entire digital realms.
         </p>
         <div className="flex gap-[10px] flex-wrap ">
           <img
@@ -210,11 +210,11 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            With over 5 years in the web development trenches, I've navigated
-            the ever-evolving tech landscape with zeal. My journey has been
-            marked by creating captivating front-end interfaces, architecting
-            robust back-end infrastructures, and sprinkling a bit of magic into
-            every line of code.
+            With over 5 years in the web development trenches, I&lsquo;ve
+            navigated the ever-evolving tech landscape with zeal. My journey has
+            been marked by creating captivating front-end interfaces,
+            architecting robust back-end infrastructures, and sprinkling a bit
+            of magic into every line of code.
           </p>
           <h2 className="text-3xl font-bold text-white mb-4 mt-8">My Skills</h2>
           <div className="flex flex-row justify-start gap-[20px]">

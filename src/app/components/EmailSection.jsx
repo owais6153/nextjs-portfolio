@@ -47,15 +47,15 @@ const EmailSection = () => {
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-linkedin to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-0 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div className="z-10">
         <h5 className="text-xl font-bold text-white my-2">
-          🤝 Let's Collaborate
+          🤝 Let&lsquo;s Collaborate
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
-          Whether you're a visionary startup ready to manifest your MVP, an
-          enterprise seeking a digital metamorphosis, or an agency hunting for a
-          development virtuoso, I'm your spellbinding solution. I'm here for
-          freelance enigmas, consulting quests, and long-term alchemical
-          alliances. Let's brew something magical together!
+          Whether you&lsquo;re a visionary startup ready to manifest your MVP,
+          an enterprise seeking a digital metamorphosis, or an agency hunting
+          for a development virtuoso, I&lsquo;m your spellbinding solution.
+          I&lsquo;m here for freelance enigmas, consulting quests, and long-term
+          alchemical alliances. Let&lsquo;s brew something magical together!
         </p>
       </div>
       <div className="z-10">
