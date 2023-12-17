@@ -15,6 +15,9 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
+          <p className="text-[#ADB7BE] text-base mb-0 tracking-[2px] font-bold text-[10px] uppercase">
+            Welcome to my digital playground!
+          </p>
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-4xl lg:leading-normal font-extrabold">
             <span className="">
               Hello, I&apos;m{" "}
