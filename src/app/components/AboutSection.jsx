@@ -204,7 +204,7 @@ const AboutSection = () => {
 
   return (
     <section className="text-white  " id="about">
-      <div className="py-8 px-4 sm:py-16 xl:px-16 z-10 relative">
+      <div className="px-4 py-16 xl:px-16 z-10 relative">
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">🌐 About Me</h2>
           <p className="text-base lg:text-lg">
@@ -223,28 +223,28 @@ const AboutSection = () => {
               active={tab === "frontend"}
             >
               {" "}
-              Front-End Alchemy{" "}
+              Front-End{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("backend")}
               active={tab === "backend"}
             >
               {" "}
-              Back-End Wizardry{" "}
+              Back-End{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("cms-dev")}
               active={tab === "cms-dev"}
             >
               {" "}
-              CMS Mastery{" "}
+              CMS{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("database")}
               active={tab === "database"}
             >
               {" "}
-              Database Sorcery{" "}
+              Database{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("devops")}
