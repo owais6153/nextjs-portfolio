@@ -74,7 +74,7 @@ const HeroSection = () => {
           className="col-span-4 place-self-center order-1 lg:order-2"
         >
           <div className="relative mb-[50px] lg:mb-0">
-            <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-secondary to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-0 right-0 lg:right-[-50px] lg:top-[-50px] "></div>
+            <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-0 right-0 lg:right-[-50px] lg:top-[-50px] "></div>
 
             <div
               className="rounded-full bg-[#12121200] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative  z-10"
