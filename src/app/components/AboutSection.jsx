@@ -265,11 +265,11 @@ const AboutSection = () => {
             💎The Elixir of Excellence
           </h2>
           <p className="text-base lg:text-lg">
-            My code isn't just functional; it's a work of art. Crafted with
-            meticulous care, it's the key to unlocking web experiences that are
-            not only seamless but also swift, secure, and scalable. I believe in
-            writing code that stands the test of time and fuels your digital
-            ambitions.
+            My code isn&lsquo;t just functional; it&lsquo;s a work of art.
+            Crafted with meticulous care, it&lsquo;s the key to unlocking web
+            experiences that are not only seamless but also swift, secure, and
+            scalable. I believe in writing code that stands the test of time and
+            fuels your digital ambitions.
           </p>
         </div>
       </div>
