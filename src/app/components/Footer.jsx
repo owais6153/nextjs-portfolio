@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container px-12 py-4 flex justify-between">
         <div>
           <span className="">{"< "}</span>
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-linkedin to-linkedinlight">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
             Owais Khan
           </span>
           <span className="">{" />"}</span>

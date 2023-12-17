@@ -16,10 +16,8 @@ module.exports = {
     },
     colors: {
       ...colors,
-      primary: colors.purple,
-      secondary: colors.pink,
-      linkedin: "#0076b2",
-      linkedinlight: "#79bce1",
+      primary: "#0076b2",
+      secondary: "#79bce1",
     },
   },
   plugins: [],

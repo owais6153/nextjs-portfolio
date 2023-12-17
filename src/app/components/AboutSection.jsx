@@ -214,7 +214,7 @@ const AboutSection = () => {
             architecting robust back-end infrastructures, and sprinkling a bit
             of magic into every line of code.
           </p>
-          <h2 className="text-3xl font-bold text-white mb-4 mt-8">
+          <h2 className="text-3xl font-bold text-white   mb-4 mt-8">
             🛠️ My Skills
           </h2>
           <div className="flex flex-row justify-start gap-[20px]">
@@ -260,9 +260,12 @@ const AboutSection = () => {
         </div>
       </div>
       <div className="flex items-center justify-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <div className="mt-4 mb-5 md:mt-0 text-left flex flex-col h-full mx-auto max-w-[600px] text-center">
-          <h2 className="text-4xl font-bold text-white mb-4">
-            💎The Elixir of Excellence
+        <div className="mt-4 mb-5 md:mt-0 flex flex-col h-full mx-auto max-w-[600px] text-center">
+          <h2 className="text-4xl font-bold mb-4">
+            💎
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary ">
+              The Elixir of Excellence
+            </span>
           </h2>
           <p className="text-base lg:text-lg">
             My code isn&lsquo;t just functional; it&lsquo;s a work of art.

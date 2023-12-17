@@ -15,18 +15,18 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-center lg:text-left justify-self-start order-2 lg:order-1 z-20"
         >
-          <p className="text-[#ADB7BE] text-base mb-3 lg:mb-0 tracking-[2px] font-bold text-[10px] uppercase">
+          <p className="text-[#ADB7BE] mb-3 lg:mb-0 tracking-[2px] font-bold text-[10px] uppercase">
             Welcome to my digital playground!
           </p>
           <h1 className="text-white mb-4 text-2xl sm:text-4xl !leading-[150%] lg:leading-normal font-extrabold">
             <span className="">
               Hello, I&apos;m{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-linkedin to-linkedinlight">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
                 Owais Khan{" "}
               </span>
             </span>
             <br></br>
-            <span className="text-3xl sm:text-5xl xl:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-linkedin to-linkedinlight">
+            <span className="text-3xl sm:text-5xl xl:text-6xl">
               <TypeAnimation
                 sequence={[
                   "Full Stack Mastreo",
@@ -53,13 +53,13 @@ const HeroSection = () => {
           <div>
             <Link
               href="/#contact"
-              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-linkedin to-linkedinlight hover:bg-slate-200 text-white"
+              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary to-secondary hover:bg-slate-200 text-white"
             >
               Hire Me
             </Link>
             <Link
               href="/"
-              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-linkedin to-linkedinlight hover:bg-slate-800 text-white mt-3"
+              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary to-secondary hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 Download CV
@@ -74,11 +74,11 @@ const HeroSection = () => {
           className="col-span-4 place-self-center order-1 lg:order-2"
         >
           <div className="relative mb-[50px] lg:mb-0">
-            <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-linkedin to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-0 right-0"></div>
+            <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-secondary to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-0 right-0 lg:right-[-50px] lg:top-[-50px] opacity-[50%]"></div>
 
             <div
               className="rounded-full bg-[#12121200] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative  z-10"
-              style={{ backdropFilter: "50px" }}
+              style={{ backdropFilter: "blur(50px)" }}
             >
               <Image
                 src="/images/owais-khan-dev.png"
